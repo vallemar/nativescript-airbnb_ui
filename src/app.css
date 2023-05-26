@@ -2,7 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-ActionBar {
-  background-color: #65adf1;
-  color: white;
+.m-icon-round {
+  font-family: "Material Icons", "MaterialIconsRound-Regular";
+  font-weight: 100;
+  font-size: 28;
+}
+
+.box-shadow {
+  box-shadow: 0px px 8px 0px rgba(189, 189, 189, 0.75);
+}
+
+Label{
+  color: black;
 }
